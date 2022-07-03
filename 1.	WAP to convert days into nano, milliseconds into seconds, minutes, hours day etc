@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class AssignmentDayConversion {
+
+	public static void main(String[] args) {
+		
+		int days ,hour, minute, second, milisecond, nanosecond;
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Numbers Of Days");
+		days = sc.nextInt();
+		
+		hour = days * 24;
+		minute = hour * 60;
+		second = hour * 3600;
+		milisecond = second * 360000;
+		nanosecond = milisecond* 720000;
+		System.out.println( "Number of Hours "+hour);
+		System.out.println( "Number Of Seconds"+minute);
+		System.out.println( "Number Of MiliSeconds"+milisecond);
+		System.out.println( "Number Of NanoSeconds"+nanosecond);
+
+	}
+
+}

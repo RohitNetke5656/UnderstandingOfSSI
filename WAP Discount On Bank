@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class S1dotequals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		String card;
+		double discount = 0.0;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the card details");
+		
+		card =  sc.nextLine();
+		
+		if (card.equals("Icici"))
+				discount = 15;
+		{
+			if (card.equals("Hdfc"))
+				discount = 20;}
+		
+			{
+				if (card.equals("Axis"))
+					discount = 10;}
+				{
+					if (card.equals("Sbi"))
+						discount = 5;
+					
+						}
+		System.out.println(discount+"discount for the bank");
+	}
+
+			}

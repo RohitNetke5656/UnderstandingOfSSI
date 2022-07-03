@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class AssignmentEligibleForVoting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         
+		
+		Scanner sc = new Scanner(System.in);
+		int Age;
+		System.out.println("Enter Your Age");
+		
+		Age = sc.nextInt();
+		
+		if (Age >= 18)
+		{
+			System.out.println("You were eligible for Voting");
+		}
+		else
+		{
+			System.out.println("You were not eligible for voting");
+		}
+	}
+
+}

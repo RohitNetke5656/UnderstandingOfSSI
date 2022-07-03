@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class AssignmentSquareroot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Scanner sc = new Scanner (System.in);
+		double a,sq;
+		
+		System.out.println("Enter Any Number");
+		a=sc.nextDouble();
+			
+				sq = Math.sqrt(a);
+				
+				System.out.println("Square root of "+a+ "="+sq);
+	}
+
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class AssignmentConversionOfKm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		int kilometer, meters,centimeter ,milimeter ,feet;
+     Scanner sc = new Scanner(System.in);
+     
+     
+     System.out.println("Enter The Kilometer");
+    int km = sc.nextInt();
+      
+      meters = km *1000;
+      centimeter =km * 100000;
+      milimeter = km * 1000000;
+      
+     
+      System.out.println("Distance in meter" +meters);
+      System.out.println("Distance in centrimeter" +centimeter);
+      System.out.println("Distance in milimeter" +milimeter);
+      
+     
+     
+    	 
+	}
+
+}

@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Assignment2OfSelection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		double n1,n2,n3;
+		
+		System.out.println("Please enter any 3 Numbers");
+		
+		 n1 = sc.nextDouble();
+		 n2 =  sc.nextDouble();
+		 n3 = sc.nextDouble();
+		 
+		 if(n1>n2)
+			 System.out.println(n1+"Greater Than "+n2);
+		 if(n1<n2)
+		 System.out.println(n2+ "Greater Than"+n1);
+		 if(n1<n3)
+			 System.out.println(n1+"Greater Than"+n3);
+		 if (n3<n1)
+			 System.out.println(n3+"Greater Than"+n1);
+		 if(n2<n3)
+			 System.out.println(n2+"Greater Than"+n3);
+		 if(n3<n2)
+			 System.out.println(n3+"Greater Than"+n2);
+		 
+	}
+
+}

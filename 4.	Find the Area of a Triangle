@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class AssignmentOfTringleArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int height, base, area;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter The Height Of Tringle");
+		
+		height = sc.nextInt();
+		
+		System.out.println("Enter The Base Of Tringle");
+		base = sc.nextInt();
+		
+		area = (height* base);
+		System.out.println("Area Of Tringle is "+area);
+	}
+
+}

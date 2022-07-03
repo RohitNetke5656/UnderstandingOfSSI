@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class QuadrantOfClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter The Coordinates Of Points");
+		
+		int x;
+		int y;
+		
+		x = sc.nextInt();
+		y = sc.nextInt();
+		
+		if (x>0)
+			if(y>0)
+				System.out.println("Points Are lies In The first Qudrants");
+		if (x>0)
+			 if(y<0)
+				 System.out.println("Points Are lies In The Second Quadrants");
+		if(x<0)
+			if(y<0)
+				System.out.println("Points are Lies In The Third Quardrants");
+		if(x>0)
+			if(y<0)
+				System.out.println("Points Rea Lies In The Fourth Quardrants");
+		if(x==0)
+			if(y!=0)
+				System.out.println("Points Are Lies on Y- axis");
+		if(x==0)
+			if(y==0)
+				System.out.println("Points Are lies on origin");
+		if(x!=0)
+			if(y==0)
+				System.out.println("Points Are lies on the x - axis");
+	}
+
+}

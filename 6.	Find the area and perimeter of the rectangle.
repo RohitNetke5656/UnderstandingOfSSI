@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AssignmentAreaAndPerimeterOfRectangle {
+
+	public static void main(String[] args) {
+		
+		int area, perimeter;
+		
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the a and b value ");
+	
+	int a = sc.nextInt();
+	int b = sc.nextInt();
+	area = (a*b);
+	
+	perimeter = 2*(a+b);
+	
+	System.out.println("Area of Rectangle"  +area);
+	System.out.println("Perimeter of Rectangle " +perimeter);
+	
+	}
+
+}

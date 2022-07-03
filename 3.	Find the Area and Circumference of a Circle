@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AssignmentAreaAndCircumferenceOfCircle {
+
+	public static void main(String[] args) {
+		
+		int area , circumference;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the radius of circle ");
+		
+		int a = sc.nextInt();
+		
+		area = 22/7*(a*a);
+		
+		circumference = (2*22/7*a);
+		
+		System.out.println("Area of circle" +area);
+		
+		System.out.println("circumference Of circle" +circumference);
+	}
+
+}
